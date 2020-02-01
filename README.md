@@ -24,7 +24,7 @@ result에서는 비교결과가 게임 종료 조건과 맞는지도 파악하�
 구현 사항 :    
 - 게임 전체를 컨트롤할 심판 | GameController | startGame: 게임 시작, terminateGame: 게임 종료
 - 사용자가 맞춰야할 숫자 | Result | Result: 숫자 생성, compareResultAndInput: 사용자 입력과 비교   
-- 입력 관리 | InputController | getUserInput: 유저 입력을 받는다   
-- 출력 관리 | OutputController | 
+- 입력 관리 | InputView | getUserInput: 유저 입력을 받는다   
+- 출력 관리 | OutputView | 
   
   
