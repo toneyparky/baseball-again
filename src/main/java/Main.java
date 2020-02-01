@@ -1,6 +1,9 @@
+import controller.GameController;
+
 public class Main {
 
     public static void main(final String[] args) {
-        System.out.println("HAHA");
+        GameController gameController = new GameController();
+        gameController.startGame();
     }
 }
